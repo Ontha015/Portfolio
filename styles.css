@@ -138,6 +138,36 @@ html {
   color: #555;
 }
 
+.menu-btn {
+  display: none;
+  font-size: 1.6rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    flex-direction: column;
+    gap: 12px;
+    display: none;
+  }
+
+  .nav-links.show-menu {
+    display: flex;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
 
 
 
