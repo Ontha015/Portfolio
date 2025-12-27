@@ -103,6 +103,40 @@ html {
   transform: translateY(0);
 }
 
+.contact-form {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.contact-form button:hover {
+  background: #1d4ed8;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
 
 
 
